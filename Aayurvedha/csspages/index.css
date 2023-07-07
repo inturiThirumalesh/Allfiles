@@ -1,0 +1,179 @@
+#FirstName{
+    background-color: lightgreen;
+    display: flex;
+    height: 30%;
+}
+.Second{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-left: 20%;
+}
+.third{
+    display: flex;
+    margin: auto;
+    margin-left: 20%;
+    flex-wrap: nowrap;
+}
+/* .fourth{
+   border-radius: 2px solid blue;
+} */
+.nav{
+    background-color: lightgray;
+}
+.conta {
+    
+    background-color: lightblue;
+    margin: auto;
+    border-radius: 200px;
+    width: 100%;
+}
+.carousel-item img{
+    border-radius: 200px;
+    margin: auto;
+    height: 400px;
+}
+body{
+    border: 2px solid pink;
+}
+
+.footer{
+    background-color:rgb(139, 139, 223);
+}
+.asideing{
+    background-color: rgb(221, 243, 243);
+}
+
+.ghi{
+    color: rgb(236, 12, 180);
+    text-align: center;
+}
+.sec{
+    color: brown;
+    text-align: center;
+    font-style: italic;
+}
+.ghs{
+    background-color: lightgrey;
+}
+.ght{
+    color: blue;
+    background-color: azure;
+}
+.container h4{
+    color: red;
+}
+.asideing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+ } 
+.card1{
+    border: 2px solid black;
+    border-radius: 80px;
+    margin-left: 3px;
+    box-sizing: border-box;
+    background-color: #f0faf9;
+  box-shadow: inset 0 -3em 3em rgb(116 255 0 / 10%), 0 0 0 2px hwb(336deg 85% 2%), 0.3em 0.3em 1em rgb(4 4 4 / 30%);
+}
+.card1 .img1{
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+    width: 100%;
+    height: 150px;
+}
+.card1:hover{
+    height: 400px;
+    width: 40%;
+    background-color: lightgray;
+    box-shadow: 100px green;
+}
+.card1 .butt{
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+/********** Template CSS **********/
+:root {
+    --primary: #0c1517;
+    --secondary: #9fb1da;
+    --light: #EFF5F9;
+    --dark: #1D2A4D;
+}
+
+.btn {
+    font-weight: 700;
+    transition: .5s;
+}
+
+
+
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    z-index: 99;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    margin-left: 30px;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark);
+    outline: none;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+}
+@media (min-width: 576px) {
+    .team-item .row {
+        height: 350px;
+    }
+}
+
+
+
+
+
+

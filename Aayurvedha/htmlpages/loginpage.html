@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Medi Doc | @Softtek</title>
+    <link rel="stylesheet" type="text/css" href="../csspages/login.css">
+    <script src="../jspages/login.js"></script>
+</head>
+
+<body class="Login">
+    <div>
+        <h1>Welcome to Pharma Doc!</h1>
+        <br>
+        <div>
+            <form action="/action_page.php">
+                <div class="conta">
+                    <h2>Login Details</h2>
+                    <br><br>
+                    <label for="uname"><b>Username :</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <br>
+                    <br>
+                    <label for="psw"><b>Password :</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <br><br>
+                    <br>
+                    <!-- <a href="../htmlpages/Welcomepage.html" id="first" onclick="alert('Welcome to Home Page, Before that confirm me go to this page!')">Login! </a> -->
+                    <button type="button" onclick="goToPage()" href="../htmlpages/index.html">Login!</button>
+                    <!-- <a href="../htmlpages/signup.html" class="second">Signup@ </a> -->
+                    <button type="button" onclick="goToPages()" href="../htmlpages/signup.html">Signup@</button>
+                    <br><br>
+                    <button type="button" onclick="goToPagees()"
+                        href="../htmlpages/forgotpass.html">ForgetPassword</button>
+                    <!-- <a href="../htmlpages/Welcomepage.html">ForgetPassword</a> -->
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

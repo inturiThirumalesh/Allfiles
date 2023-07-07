@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .Form {
+            color:red;
+            background-color: yellowgreen;
+            text-align: center;
+        }
+
+        .Drop {
+            color: green;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body class="Form">
+    <form>
+        <label for="text">First Name</label>
+        <input type="text" name="FirstName" id="text">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+        <input type="text" name="Password" id="Password">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email">
+        <br>
+        <br>
+    </form>
+    <button>submit</button>
+
+
+    <br>
+    <br>
+    <form>
+        <label for="radio">Radio Input :</label>
+        <!-- <input type="radio" value="Male" id="radio" name="anything"> -->
+        <label for="radio1">Male</label>
+        <input type="radio" value="Female" id="radio1" name="anything">
+        <label for="radio2">Female</label>
+        <input type="radio" value="Female" id="radio2" name="anything">
+        <label for="radio3">TransGender</label>
+        <input type="radio" value="Trans" id="radio3" name="anything">
+    </form>
+
+    <br>
+    <form style="background-color: rgb(19, 220, 60);">
+        <label for="checkbox">Hobiiees:</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox1">
+        <label for="checkbox1">Singing</label>
+        <input type="checkbox" id="checkbox1" name="checkbox" value="checkbox1">
+        <label for="checkbox2">Listnening</label>
+        <input type="checkbox" id="checkbox2" name="checkbox" value="checkbox2">
+        <label for="checkbox3">Running</label>
+    </form>
+    <br>
+
+    <form class="Drop" style="background-color: darkorange;">
+        <label for="dropdown">Dropdown Input:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="Anything">Music</option>
+            <option value="Anything">Swimming</option>
+            <option value="Anything">Running</option>
+        </select>
+    </form>
+    <br>-------------------------------------------------------------------------
+    <form>
+        <label for="textarea">Comments:</label>
+        <textarea id="textarea" name="textarea"></textarea>
+    </form>
+
+    <br>
+    <form>
+        <label for="textareas">Comments:</label>
+        <textarea id="textareas" name="textarea" style="width: 500px;"></textarea>
+    </form>
+    <br>
+    <form>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+
+    <form style="background-color: darkorange;">
+        <label for="inputDataList">Datalist Input:</label>
+        <input type="text" list="options" id="inputDataList" name="datalist">
+        <datalist id="options">
+            <option value="option1">
+            <option value="option2">
+            <option value="Inturi">
+            <option value="Thiru">
+            <option value="Malesh">
+        </datalist>
+    </form>
+
+    <br>
+    <form>
+        <label for="Input3">Upload File</label>
+        <input type="file" id="Input3" name="file">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input4">Enter Your Email</label>
+        <input type="email" name="email" id="input4" required>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input5">Enter Your Url</label>
+        <input type="url" id="input5" name="Url" required>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input6">Enter a Number:</label>
+        <input type="number" id="input6" name="Number" required>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input7">Give the range</label>
+        <input type="range" id="input7" name="range">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input8">Enter a date:</label>
+        <input type="date" id="input8" name="Date" required>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input9">Choose your color</label>
+        <input type="color" id="input9" name="color" required>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input10">Enter your time</label>
+        <input type="time" id="input10" name="time">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="fruits">choose a fruit:</label>
+        <select name="fruits" id="fruits" size="4" multiple>
+            <option value="Mango">Mango</option>
+            <option value="grape">grape</option>
+            <option value="Apple">Apple</option>
+            <option value="coconut">coconut</option>
+            <option value="pine apple">pine apple</option>
+        </select>
+        <input type="submit" value="submit">
+    </form>
+
+    <br>
+    <form>
+        <label for="datemax">Enter a date before 1980-3-4</label>
+        <input id="datemax" type="date" name="datemax" max="2023-2-14" min="1998-08-27">
+        <br>
+        <br>
+        <label for="datemin">Enter a date after 2000-3-4</label>
+        <input id="datemin" type="date" name="datemin"max="2023-2-14">
+    </form>
+    <br>
+    <form>
+        <input type="image" src="./Shopping site image.png" alt="submit" width="48" height="48">
+    </form>
+    <br>
+    <form>
+        <label for="myfile">Select a file</label>
+        <input id="myfile" type="file" name="myfile">
+        <input type="image" src="./Shopping site image.png" alt="submit" width="48" height="48">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input11">first name</label>
+        <input type="text" id="input11" name="input11"><br><br>
+        <input type="hidden" id="custid" name="custid" value="{{Employee.id}}">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input12">Birthday month</label>
+        <input type="month" id="input12" name="Birthday month">
+    </form>
+    <br>
+    <form>
+        <label for="local">Enter Local Time</label>
+        <input type="datetime-local" id="local" name="localtime">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input13">Quantity</label>
+        <input type="number" id="input13" min="1" max="9">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input14">Quantity</label>
+        <input type="number" id="input14" name="quantity" min="0" max="100" step="5" value="10">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input15">Volume</label>
+        <input type="range" id="input15" min="0" max="50" name="volume">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input16">Google search</label>
+        <input type="search" id="input16" name="search">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input17">Phone Number</label>
+        <input type="tel" id="input17" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="input18">First Name</label>
+        <input type="text" name="FirstName" id="input18" value="Mr/Ms" update>
+        <br>
+        <label for="input19">Last Name</label>
+        <input type="text" name="last name" id="input19" value="Ms/Mr" readonly>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="input20">First Name</label>
+        <input type="text" name="FirstName" id="input20" size="30">
+        <br>
+        <label for="input21">pin</label>
+        <input type="text" name="pin" id="input21"  size="6" maxlength="8">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form autocomplete="on">
+        <label for="input20">First Name</label>
+        <input type="text" name="FirstName" id="input20" size="30" autofocus>
+        <br>
+        <label for="input21">pin</label>
+        <input type="text" name="pin" id="input21"  size="6" maxlength="4" autocomplete="off">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form >
+        <label for="input22">First Name</label>
+        <input type="text" name="FirstName" id="input22" size="30">
+        <br>
+        <input type="submit" value="submit">
+        <input type="submit" value="submit" formnovalidate="formnovalidate">
+    </form>
+    <br>
+    <form>
+        <label for="input23">First Name</label>
+        <input type="text" name="FirstName" id="input23" >
+        <br>
+        <label for="input24">Last Name</label>
+        <input type="text" name="last name" id="input24">
+        <br>
+        <input type="submit" value="submit">
+        <input type="submit" value="submit" formtarget="_blank">
+    </form>
+    <br>
+    <form method="get">
+        <label for="input25">First Name</label>
+        <input type="text" name="FirstName" id="input25">
+        <br>
+        <label for="input26">Last Name</label>
+        <input type="text" name="last name" id="input26">
+        <br>
+        <input type="submit" value="submit">
+        <input type="submit" value="submit using post" formmethod="post">
+    </form>
+    
+    <br>
+    <form method="post">
+        <label for="input27">First Name</label>
+        <input type="text" name="FirstName" id="input27">
+        <br>
+        <label for="input28">Last Name</label>
+        <input type="text" name="last name" id="input28">
+        <br>
+        <input type="submit" value="submit">
+        <input type="submit" value="submit a multipart/form-data" formenctype="multipart/form-data">
+    </form>
+</body>
+</html>

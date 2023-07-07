@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Healthcare Website's Service Page</title>
+  <link rel="stylesheet" type="text/css" href="../csspages/Service.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="nav_bar">
+    <nav class="nav">
+      <h5><a class="nav-link active" aria-current="page" href="../htmlpages/index.html"
+          style="background-color: lightgreen;">Home</a></h5>
+      <b><a class="nav-link" href="../htmlpages/Allmedical.html">All Medicines</a></b>
+      <b><a class="nav-link" href="#">Coronavirus19</a></b>
+      <b><a class="nav-link" href="#">Healthcheck</a></b>
+      <b><a class="nav-link" href="../htmlpages/AyurvedaProducts.html">Ayurveda Products</a></b>
+      <b><a class="nav-link" href="../htmlpages/consultdoctor.html">Consult Doctors</a></b>
+      <b><a class="nav-link" href="../htmlpages/Service.html">Service</a></b>
+      <b><a class="nav-link" href="../htmlpages/About.html">About</a></b>
+      <b><a class="nav-link" href="#">AddCart</a></b>
+      <h4 style="background-color:lightgreen;"><a class="nav-link" href="../htmlpages/profilepage.html">Profile</a></h4>
+    </nav>
+  </div>
+  <h2 style="text-align: center; font-weight: bold;background-color: lightgrey;">Welcome to Softtek @Services!!</h2>
+  <div class="main">
+    <div class="tagline">
+      <!-- <h3>Our Services</h3>
+      <h4>We provide high-quality services to ensure your health.</h4> -->
+    </div>
+    <div class="service-container">
+      <div class="service">
+        <div class="title">Online Appointments</div>
+        <div class="details">
+          We provide the convenience of online appointments to ensure that your health needs are attended to promptly.
+        </div>
+      </div>
+      <div class="service">
+        <div class="title">Diagnostics</div>
+        <div class="details">
+          Have your annual checkups and diagnostic tests done with us. We offer different diagnostic tests to make sure
+          that your health is in check.
+        </div>
+      </div>
+      <div class="service">
+        <div class="title">Medical Care</div>
+        <div class="details">
+          We provide comprehensive medical care for your health needs. We strive to provide the best care for our
+          patients.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tagline">
+    <!-- <h3>Our Services</h3> -->
+    <h4>We provide high-quality services to ensure your health.</h4>
+  </div>
+  <br>
+  <div class="tab">
+    <form id="bookingForm" action="confirmAppointment.php" method="post">
+      <label for="firstName">First Name: </label>
+      <input type="text" name="firstName">
+      <label for="LastName">Last Name: </label>
+      <input type="text" name="lastName">
+      <label for="doctorName">Doctor: </label>
+      <select name="doctorName">
+        <option value="Dr Smith">Dr. Sai</option>
+        <option value="Dr Johnson">Dr. Sai Arun</option>
+        <option value="Dr Miller">Dr. Venkata</option>
+      </select><br>
+      <label for="appointmentDate">Date: </label>
+      <input type="date" name="appointmentDate">
+      <label for="appointmentTime">Time: </label>
+      <input type="time" name="appointmentTime">
+      <input type="submit" value="Book Appointment">
+    </form>
+  </div>
+  <br>
+  <div class="container-fluid bg-info text-dark  mt-6 py-6">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get In
+            Touch</h4>
+          <a class="text-light mb-2" href="#"><i></i>www.SofttekPharma.com</a><br><br>
+          <a class="text-light mb-2" href="#"><i></i>Shilpa Emerald, 26/1, Hosur Rd, nect to IBIS Hotel, Benagaluru,
+            Karnataka 5</a><br><br>
+          <a class="text-light mb-2" href="#"><i></i>Gmail : thirumalinturi@gmail.com</a><br><br>
+          <a class="text-light mb-2" href="#"><i></i>+05 -34-466-776</a><br><br>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick
+            Links</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-light mb-2" href="../htmlpages/index.html"><i class="fa fa-angle-right me-2"></i>Home</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
+            <a class="text-light mb-2" href="../htmlpages/Service.html"><i class="fa fa-angle-right me-2"></i>Our
+              Services</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Latest Blog</a>
+            <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular
+            Links</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-light mb-2" href="../htmlpages/Allmedical.html"><i class="fa fa-angle-right me-2"></i>All
+              Medicines</a>
+            <a class="text-light mb-2" href="../htmlpages/AyurvedaProducts.html"><i
+                class="fa fa-angle-right me-2"></i>Ayurveda Products</a>
+            <a class="text-light mb-2" href="../htmlpages/consultdoctor.html"><i
+                class="fa fa-angle-right me-2"></i>Consult Doctor</a>
+            <a class="text-light mb-2" href="../htmlpages/profilepage.html"><i
+                class="fa fa-angle-right me-2"></i>Profile</a>
+            <a class="text-light mb-2" href="../htmlpages/signup.html"><i class="fa fa-angle-right me-2"></i>signup</a>
+            <a class="text-light" href="../htmlpages/forgotpass.html"><i class="fa fa-angle-right me-2"></i>Change
+              Password</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Newsletter
+          </h4>
+          <form action="" class="bar">
+            <div>
+              <input type="text" class="bar1" placeholder="Your Email Address">
+              <button class="btn btn-primary" onclick="goTosignup()" href="../htmlpages/signup.html">Sign Up</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-md-0">&copy; <a class="text-primary" href="#">SofttekPharmaDoc</a>. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

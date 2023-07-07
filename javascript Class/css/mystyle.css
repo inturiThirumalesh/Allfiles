@@ -1,0 +1,37 @@
+* {
+    text-align: center;
+    font-style: normal;
+    font-size: medium;
+}
+body {
+    background-color: beige;
+}
+
+div {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.buy_things {
+    text-align: center;
+    background-color: blue;
+}
+
+.Test {
+    text-align: center;
+    background-color: yellow;
+}
+
+.Testone {
+    text-align: center;
+    background-color: crimson;
+}
+#thi{
+    background-color:blanchedalmond;
+}
+.H{
+    font-size: 50px;
+}
+h2{
+    background-color:greenyellow;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(12, 192, 242);
+    background-image: url(../Images/Thar.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 500px;
+    background-size:800px;
+    background-blend-mode:multiply;
+    /* text-align: center; */
+    }
+.division{
+    border: 10px darksalmon green;
+    background-origin: padding-box;
+    background-position: center;
+}    

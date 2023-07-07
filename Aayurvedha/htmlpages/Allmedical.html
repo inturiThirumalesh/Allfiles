@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>All Medoc | @Softtek</title>
+    <link href="../csspages/Allmedical.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jspages/allmedical.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container-fluid">
+            <nav class="nav">
+                <h4><a class="nav-link" aria-current="page" href="../htmlpages/index.html">Home</a></h4>
+                <b><a class="nav-link" href="../htmlpages/Allmedical.html">All Medicines</a></b>
+                <b><a class="nav-link" href="#">Coronavirus19</a></b>
+                <b><a class="nav-link" href="#">Healthcheck</a></b>
+                <b><a class="nav-link" href="../htmlpages/AyurvedaProducts.html">Ayurveda Products</a></b>
+                <b><a class="nav-link" href="../htmlpages/consultdoctor.html">Consult Doctors</a></b>
+                <b><a class="nav-link" href="../htmlpages/Service.html">Service</a></b>
+                <b><a class="nav-link" href="../htmlpages/About.html">About</a></b>
+                <b><a class="nav-link" href="#">AddCart</a></b>
+                <h4><a class="nav-link" href="../htmlpages/profilepage.html">Profile</a></h4>
+            </nav>
+        </div>
+        <h2>All Medicines Here!!!</h2>
+        <marquee scrollamount="12">
+            <h3 style="color: red;">Select and Buy Your Medicines and Health Products! </h3>
+        </marquee>
+        <!-- <a href="../htmlpages/Welcomepage.html" style="border: 3px solid red;">Back To Home</a> -->
+        <button type="button" onclick="goToPags()" href="../htmlpages/index.html"
+            style="background-color: blue ; color: white;">Back to home</button>
+        <button type="button" onclick="goTonextpage()" href="../htmlpages/AyurvedaProducts.html"
+            style="background-color: blue ; color: white;">Go to Next Page</button>
+        <br><br>
+        <div class="asideing "><br>
+            <div class="card1 " style="width: 18rem;">
+                <img src="../images/paracetamol.png" class="img1" alt="paractemol">
+                <div>
+                    <h5>Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab1.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab2.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab3.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                </div>
+            </div><br>
+        </div><br><br>
+        <div class="asideing "><br>
+            <div class="card1 " style="width: 18rem;">
+                <img src="../images/tab2.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab3.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/Paracetamol1.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/Paracetamol.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                </div>
+            </div><br>
+        </div><br><br>
+        <div class="asideing "><br>
+            <div class="card1 " style="width: 18rem;">
+                <img src="../images/Paracetamol1.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/paracetamol.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab2.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab1.png" class="img1" lt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                </div>
+            </div><br>
+        </div><br><br>
+        <div class="asideing "><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab3.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/Paracetamol1.png" class="img1" lt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab1.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                    <a href="#">Card link</a>
+                </div>
+            </div><br>
+            <div class="card1" style="width: 18rem;">
+                <img src="../images/tab2.png" class="img1" alt="...">
+                <div>
+                    <h5>Card title</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+                <ul>
+                    <li>An item</li>
+                    <li>A second item</li>
+                    <li>A third item</li>
+                </ul>
+                <div>
+                    <button onclick="addToCart(1)">Add Product to Cart</button>
+                </div>
+            </div><br>
+        </div><br>
+        <!-- <a href="../htmlpages/Welcomepage.html" style="border: 3px solid red;">Back</a> -->
+        <button type="button" onclick="goToPags()" href="../htmlpages/index.html"
+            style="background-color: green; color: rgb(244, 236, 236);">Back to home</button>
+    </div>
+    <footer style="text-align: center;" class="footer">
+        <pre>Copyright &copy; Softtek pharma Doc; 
+           &copy;2023 Softtek Pharma Doc. All Rights Reserved. In compliance with Drugs and Cosmetics Act, 
+           1940 and Drugs and Cosmetics Rules, 1945, we don't process requests for Schedule X and other habit forming drugs.
+        </pre>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.signup{
+    text-align: center;
+    border: 2px solid green;
+    box-sizing: border-box;
+    border-radius: 50px;
+    min-width: 100px;
+    align-items: center;
+    margin: auto;
+    background: lightgrey;
+    color: darkblue;
+    width: 40%;
+}
+body{
+    background-color: lightblue;
+    background-repeat: no-repeat;
+}
+

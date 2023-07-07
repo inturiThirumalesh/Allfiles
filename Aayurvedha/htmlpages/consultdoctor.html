@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Doctor Consultation | @Softtek</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../csspages/consultDoctor.css">
+<script src="../jspages/consultdoctor.js"></script>
+
+<body>
+    <div class="head">
+        <div class="container-fluid">
+            <nav class="nav">
+                <h4><a class="nav-link" aria-current="page" href="../htmlpages/index.html">Home</a></h4>
+                <b><a class="nav-link" href="../htmlpages/Allmedical.html">All Medicines</a></b>
+                <b><a class="nav-link" href="#">Coronavirus19</a></b>
+                <b><a class="nav-link" href="#">Healthcheck</a></b>
+                <b><a class="nav-link" href="../htmlpages/AyurvedaProducts.html">Ayurveda Products</a></b>
+                <b><a class="nav-link" href="../htmlpages/consultdoctor.html">Consult Doctors</a></b>
+                <b><a class="nav-link" href="../htmlpages/Service.html">Service</a></b>
+                <b><a class="nav-link" href="../htmlpages/About.html">About</a></b>
+                <b><a class="nav-link" href="#">AddCart</a></b>
+                <h4><a class="nav-link" href="../htmlpages/profilepage.html">Profile</a></h4>
+            </nav>
+        </div>
+        <h1>Doctor Consultation</h1>
+        <h3>We are here to help you 24x7</h3>
+    </div>
+    <button type="button" onclick="goToPags()" href="../htmlpages/index.html"
+        style="background-color: rgb(69, 234, 132) ; color: rgb(45, 38, 38);">Back to home</button>
+    <button type="button" onclick="goToaayurvedha()" href="../htmlpages/AyurvedaProducts.html"
+        style="background-color: blue ; color: white;">Back to Previous Page</button>
+    </div><br><br>
+    <div class="row">
+        <div class="col-3" id="sml-img">
+            <img src="../images/Docimgforlady.png" alt="Doctor Consultation" width="20%" height="100%" />
+        </div>
+        <div class="col">
+            <img src="../images/consultDoctormainimg1.png" alt="Doctor Consultation" />
+            <pre>Welcome to our online doctor consultation service. We are here to help you 24x7. 
+                All your health problems can be solved with our online consultation.</pre>
+
+            <p>Please fill in the form below to book an appointment with the doctor:</p>
+
+
+            <form id="bookingForm" action="confirmAppointment.php" method="post">
+                <label for="firstName">First Name: </label>
+                <input type="text" name="firstName"><br>
+                <label for="LastName">Last Name: </label>
+                <input type="text" name="lastName"><br>
+                <label for="doctorName">Doctor: </label>
+                <select name="doctorName">
+                    <option value="Dr Smith">Dr. Smith</option>
+                    <option value="Dr Johnson">Dr. Johnson</option>
+                    <option value="Dr Miller">Dr. Miller</option>
+                </select><br>
+                <label for="appointmentDate">Date: </label>
+                <input type="date" name="appointmentDate"><br>
+                <label for="appointmentTime">Time: </label>
+                <input type="time" name="appointmentTime"><br>
+                <!-- <input type="submit" value="Book Appointment"> -->
+
+                <button type="button" onclick="alert('Your request has been Sucessfully Submitted!!')" href="#"
+                    style="background-color: white ; color:black;" class="appo"><b>Book Appointment</b></button>
+            </form>
+
+
+        </div>
+        <div class="col-3" id="sml-img">
+            <img src="../images/Docimgforboy.png" alt="Doctor Consultation" width="30%" height="30%" />
+        </div>
+    </div>
+    </div>
+    <footer style="text-align: center;" class="footer">
+        <pre>Copyright &copy; Softtek; 
+           &copy;2023 Softtek Medical Doc. All Rights Reserved. In compliance with Drugs and Cosmetics Act, 
+           1940 and Drugs and Cosmetics Rules, 1945, we don't process requests for Schedule X and other habit forming drugs.
+        </pre>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.Login{
+    text-align: center;
+    background-image: url(../images/loginphoto.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+}
+.conta{
+    border: 2px dotted white;
+    width: 40%;
+    height: 325px;
+    margin: auto;
+    color: azure;
+    
+    
+}
+.conta button{
+    margin-left:0px;
+    color: rgb(243, 12, 31);
+    background-color:lightgreen;
+}
+
+h1{
+    color: green;
+}
+
+.conta:hover{
+    padding: 20px;
+
+}
+.conta button:hover{
+    color: rgb(240, 10, 10);
+    border-radius: 20px;
+    padding: 10px;
+}
+.conta a{
+    color: yellow;
+    margin-left: 20px;
+}
+.conta  a:hover{
+    font-size: 25px;
+}
